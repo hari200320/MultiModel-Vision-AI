@@ -27,7 +27,7 @@ gif_base64 = get_base64_of_file(file_path)
 
 # Sidebar for navigation
 st.sidebar.title("Navigation")
-page = st.sidebar.selectbox("Go to", ["Home", "App 1", "App 2", "App 3"])
+page = st.sidebar.selectbox("Go to", ["Home", "ATS Tracking System.", "Image Analyzer.", "Q&A Application."])
 
 # Add animated image to the center
 if page == "Home":
