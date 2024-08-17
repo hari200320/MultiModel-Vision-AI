@@ -1,0 +1,11 @@
+.env
+
+
+__pycache__/
+
+
+venv/
+
+faiss_index/
+
+animated.gif/
